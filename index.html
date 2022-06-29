@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,400&family=Sen:wght@400;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <title>Movie Website</title>
+    
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">NetFlix</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img src="images/profile.jpg" alt="" class="profile-picture">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggle-icon-moon"></i>
+                    <i class="fa-solid fa-sun toggle-icon-sun"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="fa-solid fa-magnifying-glass sidebar-icon"></i>
+        <i class="fa-solid fa-house sidebar-icon"></i>
+        <i class="fa-solid fa-user sidebar-icon"></i>
+        <i class="fa-solid fa-bookmark sidebar-icon"></i>
+        <i class="fa-solid fa-tv sidebar-icon"></i>
+        <i class="fa-solid fa-cloud-arrow-down sidebar-icon"></i>
+        <i class="fa-solid fa-cart-shopping sidebar-icon"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom,rgba(0,0,0,0),#151515), url('images/f-2.jpg');">
+
+                <img src="images/f-t-2.png" alt="" class="featured-title">
+                <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dicta maiores
+                    quas nulla eum repellat expedita voluptas vero voluptates quae enim illum tempora aspernatur aut,
+                    suscipit animi delectus iure repellendus qui sint dolore. Quos!</p>
+                    <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="images/20.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Central Cinema</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/2.jpeg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Spledour</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/3.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Storm</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/4.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">1 9 1 7</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/18.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">FairyTail</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-angle-left left-arrow"></i>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">ACTION</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="images/5.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Iron Man II</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/6.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Zumanji</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/7.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">S.P.G</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/8.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Oblivion</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/19.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Spider Man 2</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-angle-left left-arrow"></i>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content-2"
+                style="background: linear-gradient(to bottom,rgba(0,0,0,0),#151515), url('images/f-1.jpg');">
+
+                <img src="images/f-t-1.png" alt="" class="featured-title">
+                <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dicta maiores
+                    quas nulla eum repellat expedita voluptas vero voluptates quae enim illum tempora aspernatur aut,
+                    suscipit animi delectus iure repellendus qui sint dolore. Quos!</p>
+                    <button class="featured-button">WATCH</button>
+            </div>
+
+
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">HORROR</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="images/9.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Hobbit</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/10.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Due Date</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/11.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Kick-Ass 2</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/12.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Emoji Movie</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/1.jpeg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Her</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-angle-left left-arrow"></i>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">INDIAN</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img src="images/13.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">1920 Evil Returns</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/14.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Paths of Glory</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/15.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Batman II</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/16.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">1920 Fear Strikes</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img src="images/17.jpg" alt="" class="movie-list-item-image">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <i class="fa-solid fa-play play-pause"></i>
+                            <i class="fa-solid fa-circle-down download"></i>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-angle-left left-arrow"></i>
+                    <i class="fa-solid fa-angle-right arrow"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-headings">
+            <div class="services">
+                <ul class="first-column"><h2>Services</h2>
+                    <li >Web Design </li>
+                    <li >Development </li>
+                    <li >Hoisting </li>
+                </ul>
+            </div>
+            <div class="About">
+                <ul class="second-column"><h2>About</h2>
+                    <li>Company </li>
+                    <li>Team Name </li>
+                    <li>Careers </li>
+                </ul>
+            </div>
+            <div class="company-name"><h2>Company Name</h2>
+                <ul class="3rd column"></ul>
+                <p class="tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolorem voluptatem nesciunt asperiores modi praesentium saepe sunt eum rerum explicabo.</p>
+                
+            </div>
+        </div>
+        <div class="logos">
+            <i class="fa-brands fa-facebook logo-1"></i>
+            <i class="fa-brands fa-instagram logo-1"></i>
+            <i class="fa-brands fa-twitter logo-1"></i>
+            <i class="fa-brands fa-linkedin logo-1"></i>
+            <i class="fa-brands fa-youtube logo-1"></i>
+        </div>
+    </footer>
+    
+<script src="script.js"></script>
+</body>
+
+</html>
